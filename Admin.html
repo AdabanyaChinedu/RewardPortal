@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>Reward|Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/fonts/icons.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/fonts/CircularStd-Bold.woff">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/fonts/CircularStd-Book.woff">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/fonts/CircularStd-Medium.woff">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/fonts/Flaticon.woff">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/fonts/all.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/fonts/fontawesome.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/fonts/icons.woff">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/fonts/CircularStd-Black.woff">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/Admin.css" />
+    <meta name="author" content="chinedu">
+
+</head>
+
+<body>
+
+    <!-- Reward Portal Header -->
+
+    <div id="RP-header">
+        <div id="header-title">
+            Rewards <span>Portal</span>
+        </div>
+        <div id="header-icons-right">
+            <span id="notification-icon"><i class="fa fa-bell fa-xs" aria-hidden="true"></i> </span>
+            <span id="profile-icon"> <!--<i class="fa fa-user-circle" aria-hidden="true"></i>  --></span>
+        </div>
+    </div>
+    <!-- Reward Portal Body -->
+    <div id="Rp-Body">
+        <!-- Reward Portal Side Navigation Bar -->
+
+        <div id="SideNav">
+            <div id="SideNav-top">
+                <div class="no-child">
+                    <i class=" icon-dashboard"> </i> <span class="SideNav-top-textFormat">Dashboard</span>
+                </div>
+
+                <div class="have-children">
+                    <div id="have-children-cms">
+                        <i class=" icon-cms"> </i> <span class="SideNav-top-textFormat">Content Management</span>
+                        <i class="fa fa-angle-right fa-xs"></i>
+                    </div>
+                    <div id="cms-submenu-container">
+                        <div class="SideNav-top-textFormat">Merchant Partners</div>
+                    </div>
+
+                </div>
+
+                <div class="have-children">
+                    <div id="have-children-user">
+                        <i class="icon-user"> </i> <span class="SideNav-top-textFormat">User Management</span>
+                        <i class="fa fa-angle-right fa-xs"></i>
+                    </div>
+                    <div id="user-submenu-container">
+                        <div class="SideNav-top-textFormat sub-first-with-min1Siblings-margin">Users</div>
+                        <div class="SideNav-top-textFormat">Admin Users</div>
+
+                    </div>
+                </div>
+
+                <div class="have-children">
+                    <div id="have-children-report">
+                        <i class=" icon-reporting"> </i> <span class="SideNav-top-textFormat">Reporting</span>
+                        <i class="fa fa-angle-right fa-xs"></i>
+                    </div>
+                    <div id="report-submenu-container">
+                        <div class="SideNav-top-textFormat  sub-first-with-min1Siblings-margin">Portal Report</div>
+                        <div class="SideNav-top-textFormat  sub-second-with-2Siblings-margin">Redemption Report</div>
+                        <div class="SideNav-top-textFormat">Portal Report</div>
+                    </div>
+                </div>
+
+                <div class="no-child">
+                    <i class=" icon-settings"> </i> <span class="SideNav-top-textFormat">System Settings</span>
+                </div>
+
+            </div>
+            <div id="SideNav-bottom">
+                <div id="SideNav-bottom-logo"> </div>
+                <div id="SideNav-bottom-copyright">
+                    <p> Copyright &copy; 2018 UBA Group PLC,</p>
+                    <p> Powered by Interswitch</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reward Portal Main body -->
+        <div id="Rp-body-container-outer">
+            <div id="Rp-body-container-inner">
+
+                <!-- Reward Portal Main body--SubHeader -->
+                <div id="Rp-body-sub-header">
+                    <!-- <i>icon Bar</i> -->
+                    <div>
+                        <div>Admin Users</div>
+                        <div id="Rp-date-toggle">
+                            <span>Today:</span>
+                            <span id="date"> 20 Apr</span>
+                            <span>
+                                <i class="fa fa-angle-down fa-xs"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div id="Rp-btn-search">
+                        <button>New Admin User</button>
+                        <div id="Rp-search">
+                            <input type="text" value="" placeholder="Search">
+                            <i class="fa fa-search icon"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Reward Portal Main body -->
+                <div id="RP-body-content">
+                    <div id="RP-body-content-header">
+                        <span id="header-email" class="box-email">Email</span>
+                        <span id="header-role" class="box-role">Role</span>
+                        <span id="header-cur-signin" class="box-curr-signin">Current Sign In At</span>
+                        <span id="header-lst-signin" class="box-lst-signin">Last Sign In At</span>
+                        <span id="header-status" class="box-status">Status</span>
+                        <span class="box-action"></span>
+                    </div>
+                    <div id="RP-body-content-body">
+                        <div id="body1" class="body-box-format ">
+                            <span class="box-email text-positioning">oluwatayo.aloun@interswitchgroup.com</span>
+                            <span class="box-role text-positioning"> Super Admin</span>
+                            <span class="box-curr-signin text-positioning">April 26, 2018 15:10</span>
+                            <span class="box-lst-signin text-positioning">April 20, 2018 12:17</span>
+                            <span class="box-status text-positioning"><i></i>  Active  </span>
+                            <span class="box-action text-positioning"><i class="fa fa-ellipsis-h fa-xs" ></i></span>
+                        </div>
+                        <div id="body2" class="body-box-format "> <span class="box-email text-positioning">oluwatayo.aloun@interswitchgroup.com</span>
+                            <span class="box-role text-positioning"> Super Admin</span>
+                            <span class="box-curr-signin text-positioning">April 26, 2018 15:10</span>
+                            <span class="box-lst-signin text-positioning">April 20, 2018 12:17</span>
+                            <span class="box-status text-positioning"><i></i>  Active  </span>
+                            <span class="box-action text-positioning"><i class="fa fa-ellipsis-h fa-xs" ></i></span>
+                        </div>
+                        <div id="body3" class="body-box-format "> <span class="box-email text-positioning">oluwatayo.aloun@fbnigeria.com</span>
+                            <span class="box-role text-positioning"> Super Admin</span>
+                            <span class="box-curr-signin text-positioning">April 26, 2018 15:10</span>
+                            <span class="box-lst-signin text-positioning">April 20, 2018 12:17</span>
+                            <span class="box-status text-positioning"><i></i>  Active  </span>
+                            <span class="box-action text-positioning"><i class="fa fa-ellipsis-h fa-xs" ></i></span>
+                        </div>
+                        <div id="body4" class="body-box-format "> <span class="box-email text-positioning">oluwatayo.aloun@fcmb.com</span>
+                            <span class="box-role text-positioning"> Super Admin</span>
+                            <span class="box-curr-signin text-positioning">April 26, 2018 15:10</span>
+                            <span class="box-lst-signin text-positioning">April 20, 2018 12:17</span>
+                            <span class="box-status text-positioning"><i></i>  Active  </span>
+                            <span class="box-action text-positioning"><i class="fa fa-ellipsis-h fa-xs" ></i></span>
+                        </div>
+                        <div id="body5" class="body-box-format "> <span class="box-email text-positioning">oluwatayo.aloun@infinitisys.com</span>
+                            <span class="box-role text-positioning"> Super Admin</span>
+                            <span class="box-curr-signin text-positioning">April 26, 2018 15:10</span>
+                            <span class="box-lst-signin text-positioning">April 20, 2018 12:17</span>
+                            <span class="box-status text-positioning"><i></i>  Active  </span>
+                            <span class="box-action text-positioning"><i class="fa fa-ellipsis-h fa-xs" ></i></span>
+                        </div>
+                        <div id="body6" class="body-box-format "> <span class="box-email text-positioning">oluwatayo.aloun@hotmail.com</span>
+                            <span class="box-role text-positioning"> Super Admin</span>
+                            <span class="box-curr-signin text-positioning">April 26, 2018 15:10</span>
+                            <span class="box-lst-signin text-positioning">April 20, 2018 12:17</span>
+                            <span class="box-status text-positioning"><i></i>  Active  </span>
+                            <span class="box-action text-positioning"><i class="fa fa-ellipsis-h fa-xs" ></i></span>
+                        </div>
+                        <div id="body7" class="body-box-format "> <span class="box-email text-positioning">oluwatayo.aloun@gmail.com</span>
+                            <span class="box-role text-positioning"> Super Admin</span>
+                            <span class="box-curr-signin text-positioning">April 26, 2018 15:10</span>
+                            <span class="box-lst-signin text-positioning">April 20, 2018 12:17</span>
+                            <span class="box-status text-positioning"><i></i>  Active  </span>
+                            <span class="box-action text-positioning"><i class="fa fa-ellipsis-h fa-xs" ></i></span>
+                        </div>
+                        <div id="body8" class="body-box-format "> <span class="box-email text-positioning">olyo.aloun@yahoo.com</span>
+                            <span class="box-role text-positioning"> Super Admin</span>
+                            <span class="box-curr-signin text-positioning">April 26, 2018 15:10</span>
+                            <span class="box-lst-signin text-positioning">April 20, 2018 12:17</span>
+                            <span class="box-status text-positioning"><i></i>  Active  </span>
+                            <span class="box-action text-positioning"><i class="fa fa-ellipsis-h fa-xs" ></i></span>
+                        </div>
+                    </div>
+                    <div id="RP-body-content-footer">
+                        <div>Displaying Users 1-39 of 39 in total</div>
+                        <div id="navigation-pane">
+                            <button id="previous-btn"><i class="fa fa-caret-left"></i></button>
+                            </span><span> Page 1 of 2</span>
+                            <button id="next-btn"><i class="fa fa-caret-right"></i></button>
+                        </div>
+                        <div>Download <a href="">CSV XML JSON</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

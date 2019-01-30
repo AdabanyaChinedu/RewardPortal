@@ -1,0 +1,482 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#RP-header {
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+    width: 100%;
+    min-height: 60px;
+    align-items: center;
+}
+
+#header-title {
+    color: #2F2D2E;
+    font-family: CircularStd;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    line-height: 29px;
+    margin-left: 30px;
+}
+
+#header-title span {
+    font-weight: 500;
+}
+
+#header-icons-right {
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+    width: 71px;
+    justify-content: space-between;
+    align-items: center
+}
+
+#notification-icon {
+    display: flex;
+    background-color: #C0C0C0;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa,
+.fa-bell {
+    color: #FFFFFF
+}
+
+#profile-icon {
+    background-image: url("../images/profilePic.png");
+    background-size: 100%;
+    border: 1px solid #FFFFFF;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+}
+
+#SideNav {
+    display: flex;
+    flex-direction: column;
+    background-color: #2F2D2E;
+    width: 250px;
+    min-height: 620px;
+}
+
+#SideNav-top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 121px;
+    margin-left: 27px;
+}
+
+.SideNav-top-textFormat {
+    color: #C0C0C0;
+    font-family: CircularStd;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.25px;
+    line-height: 17px;
+}
+
+#SideNav-top .no-child {
+    display: flex;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+#SideNav-top .have-children {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    /* align-items: flex-start; */
+}
+
+#SideNav-top .have-children>div:first-child {
+    display: flex;
+    align-items: center;
+    /* margin to be applied on dropdown inactive */
+    margin-bottom: 38px;
+}
+
+#SideNav-top .have-children>div:first-child>i:last-child {
+    margin-left: auto;
+    margin-right: 30px
+}
+
+#SideNav-top .have-children>div:last-child {
+    /* display to be applied on dropdown active */
+    /* display: flex; */
+    /* display to be applied on dropdown inactive */
+    display: none;
+    flex-direction: column;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+
+#SideNav-top .have-children>#have-children-user {
+    /* margin to be applied on dropdown inactive */
+    margin-bottom: 0px;
+}
+
+#SideNav-top .have-children>#user-submenu-container {
+    /* display to be applied on dropdown active */
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+
+.sub-first-with-min1Siblings-margin {
+    margin-bottom: 15px
+}
+
+.sub-second-with-2Siblings-margin {
+    margin-bottom: 15px
+}
+
+.icon-cms,
+.icon-user,
+.icon-settings,
+.icon-reporting,
+.icon-dashboard {
+    color: #9B9B9B;
+    margin-right: 9px;
+    font-size: 1.1em
+}
+
+.icon-cms {
+    width: 14.71px;
+    height: 14.78px;
+}
+
+.icon-user {
+    width: 17px;
+    height: 15px;
+}
+
+.icon-settings {
+    width: 14.72px;
+    height: 14.72px;
+}
+
+.icon-reporting {
+    font-weight: 700;
+    width: 15px;
+    height: 8.83px;
+}
+
+.icon-dashboard {
+    width: 17px;
+    height: 15px;
+}
+
+#SideNav-top .fa-xs {
+    font-size: 0.6em;
+    font-weight: 700
+}
+
+#SideNav-bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: 34px;
+    margin-left: 33px;
+    align-content: space-between;
+}
+
+#SideNav-bottom-logo {
+    background-image: url("../images/logo-red.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90px;
+    height: 42px;
+    margin-bottom: 15px;
+}
+
+#SideNav-bottom-copyright p {
+    color: #9B9B9B;
+    font-family: CircularStd;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+
+/* Reward portal Body */
+
+#Rp-Body {
+    display: flex;
+}
+
+#Rp-body-container-outer {
+    display: flex;
+    width: calc(100% - 250px);
+    min-height: 620px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 49px;
+}
+
+#Rp-body-container-inner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+/* Reward Portal Body Sub header */
+
+#Rp-body-sub-header {
+    display: flex;
+    width: 100%;
+}
+
+#Rp-body-sub-header div {
+    display: flex;
+    width: 250px;
+    min-height: 25px;
+    align-items: center;
+}
+
+#Rp-body-sub-header div>div:first-child {
+    color: #4A4A4A;
+    font-family: CircularStd;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-right: 10px
+}
+
+#Rp-date-toggle {
+    display: flex;
+    background-color: #ECECEC;
+    border-radius: 12px;
+    max-width: 116px;
+    height: 24px;
+    align-items: center;
+}
+
+#Rp-date-toggle>span:first-child {
+    color: #C0C0C0;
+    font-family: CircularStd;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 3px;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+#date {
+    color: #4A4A4A;
+    font-family: CircularStd;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+#Rp-date-toggle>span:last-child {
+    display: flex;
+    background-color: #2F2D2E;
+    border-radius: 12px;
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+    align-items: center;
+    padding-left: 8px;
+}
+
+#Rp-date-toggle>span:last-child .fa {
+    color: #ECECEC;
+    width: 12px;
+    height: 12px;
+}
+
+#Rp-btn-search {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    min-width: 440px;
+}
+
+#Rp-btn-search button {
+    border: none;
+    background-color: #868e96;
+    color: #dfe2e3;
+    min-width: 195px;
+    height: 36px;
+    font-size: 0.7em;
+}
+
+#Rp-search {
+    display: flex;
+    border: 1px solid #C0C0C0;
+    align-items: center;
+    margin-left: auto;
+    max-width: 229px
+}
+
+#Rp-search input {
+    outline: none;
+    border: none;
+    width: 195px;
+    height: 36px;
+}
+
+#Rp-search input::placeholder {
+    color: #9B9B9B;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    opacity: 0.7;
+    padding-left: 14px;
+}
+
+#Rp-search .fa-search {
+    display: flex;
+    font-size: 0.8em;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 29px;
+    height: 18px;
+    color: #C0C0C0;
+    border: none
+}
+
+
+/* Reward portal sub body */
+
+#RP-body-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px
+}
+
+#RP-body-content-header {
+    display: flex;
+    font: CircularStd;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #7b7b7b;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#RP-body-content-body {
+    display: flex;
+    flex-direction: column;
+    font: CircularStd;
+    font-size: 0.9em;
+    font-weight: 550;
+    color: #a3a3a3;
+    width: 100%;
+    min-height: 400px;
+}
+
+.body-box-format {
+    display: flex;
+    border: 1px solid #dfe2e3;
+    min-height: 45px;
+    margin-bottom: 5px
+}
+
+#RP-body-content-footer {
+    display: flex;
+    font: CircularStd;
+    font-size: 0.7em;
+    font-weight: 550;
+    color: #a3a3a3;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.text-positioning {
+    display: flex;
+    align-items: center;
+}
+
+.box-email {
+    width: 283px;
+    margin-left: 10px;
+}
+
+.box-role {
+    width: 115px;
+    margin-left: 10px;
+}
+
+.box-curr-signin {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.box-lst-signin {
+    width: 180px;
+    margin-left: 10px;
+}
+
+.box-status {
+    width: 70px;
+    margin-left: 10px;
+}
+
+.box-action {
+    width: 20px;
+    margin-left: auto;
+    margin-right: 12px;
+}
+
+#RP-body-content-body .box-status {
+    display: flex;
+    justify-content: space-between
+}
+
+.box-status i:first-child {
+    width: 8px;
+    height: 8px;
+    margin-right: 14px;
+    border-radius: 16px;
+    background-color: green
+}
+
+#body3 .box-status i:first-child {
+    background-color: red;
+}
+
+.fa-ellipsis-h,
+.fa-caret-left,
+.fa-caret-right {
+    color: #6f6f6f;
+}
+
+#navigation-pane {
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: 220px;
+    justify-content: space-between;
+}
+
+#navigation-pane>button {
+    height: 33px;
+    width: 33px;
+    border: 1px solid #6f6f6f;
+    background-color: transparent;
+}
+
+#RP-body-content-footer a {
+    font: CircularStd;
+    font-size: 1.1em;
+    font-weight: 550;
+    color: #6f6f6f;
+}
